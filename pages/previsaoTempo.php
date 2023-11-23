@@ -33,7 +33,9 @@ $data = json_decode($response, true);
 
                 <h1><span class="">Previsão do tempo</span></h1>
 
+                <h3>Previsão geral</h3>
                 <?php echo $data[0]['text'] ?>
+                
             </div>
         </div>
     </div>

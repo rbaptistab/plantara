@@ -6,7 +6,7 @@
             <div class="d-flex flex-column justify-content-between p-2">
                 <ul class="nav nav-pills mt-4 d-flex flex-column justify-content-end">
                     <li class="nav-item">
-                        <a href=""
+                        <a href="/plantara/pages/localizacao.php"
                             class="nav-link d-flex justify-content-between <?php echo isActivePage('agenda.php'); ?>">
                             <img src="/plantara/assets/icon-map.png"></img><span class="">Localização</span>
                         </a>
