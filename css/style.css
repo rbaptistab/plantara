@@ -92,3 +92,8 @@
     color: #080A0D;
 
 }
+
+.botao-cadastrar{
+    background-color: #5C8C46 !important;
+    border: none !important;
+}
