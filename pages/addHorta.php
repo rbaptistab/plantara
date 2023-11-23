@@ -2,16 +2,6 @@
 
 require_once("../templates/footer.php");
 
-// $url = 'http://ec2-3-144-163-238.us-east-2.compute.amazonaws.com:8080/usuario/3';
-// $response = file_get_contents($url);
-// $data = json_decode($response, true);
-
-// $urlHorta = 'http://ec2-3-144-163-238.us-east-2.compute.amazonaws.com:8080/horta';
-// $responseHorta = file_get_contents($urlHorta);
-// $dataHorta = json_decode($responseHorta, true);
-
-// $urlImgHorta = 'http://ec2-3-144-163-238.us-east-2.compute.amazonaws.com:8080/horta/busca/foto/';
-
 if (isset($_GET['id'])) {
     $userId = $_GET['id'];
 } else {
@@ -80,7 +70,7 @@ header("Access-Control-Allow-Headers: Content-Type, Authorization");
 
 
                     <div class="col-12">
-                        <button type="submit" class="btn btn-primary botao-login">Cadastrar</button>
+                        <button type="submit" class="btn btn-primary botao-cadastrar">Cadastrar</button>
                     </div>
                 </form>
 
