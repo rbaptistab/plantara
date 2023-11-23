@@ -101,7 +101,7 @@ header("Access-Control-Allow-Headers: Content-Type, Authorization");
             contentType: 'application/json',
             crossDomain: true,
             xhrFields: {
-                withCredentials: true // Permite o envio de cookies e cabeçalhos personalizados (como o 'Authorization')
+                withCredentials: false // Permite o envio de cookies e cabeçalhos personalizados (como o 'Authorization')
             },
             success: function (response) {
                 toastr.success('Horta cadastrada com sucesso!', 'Sucesso');
